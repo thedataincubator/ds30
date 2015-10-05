@@ -16,4 +16,4 @@ To run this demo, you will need to startup an ipython notebook instance:
 ipython notebook
 ```
 
-Then go to `localhost:8888` and click on `Streaming.ipynb` to view the example
+Then go to `localhost:8888` and click on `DS30.ipynb` to view the example
