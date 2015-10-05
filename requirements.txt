@@ -1,0 +1,12 @@
+matplotlib
+numpy
+scipy
+seaborn
+https://github.com/thedataincubator/onlineldavb.git@master
+wordcloud
+ipython[all]
+simplejson
+requests
+nltk
+scikit-learn
+pandas
