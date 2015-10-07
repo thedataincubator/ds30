@@ -1,5 +1,5 @@
 # Data Science in 30 Minutes
-A quick demo illustrating a few data science techniques, and all in 30 minutes!
+A quick demo illustrating a few data science techniques, and all in 30 minutes!  We're going to illustrate what you can do in 30 minutes with a little bit of programming and science.  This is an open-source contribution to the community so please add as much as you want!
 
 ## Requirements:
 NOTE: All code written below are done in python2, using python3 will not work.
@@ -27,7 +27,7 @@ To run this demo, you will need to startup an ipython notebook instance:
 ipython notebook
 ```
 
-Then go to `localhost:8888` and click on `DS30.ipynb` to view the example
+Then go to `http://localhost:8888` and click on `DS30.ipynb` to view the example
 
 ## More:
 This is meant to just give you a brief guided tour of a few topics in machine-learning.
