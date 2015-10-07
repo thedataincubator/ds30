@@ -10,3 +10,4 @@ requests
 nltk
 scikit-learn
 pandas
+pillow
