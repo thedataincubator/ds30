@@ -2,6 +2,7 @@
 A quick demo illustrating a few data science techniques, and all in 30 minutes!
 
 ## Requirements:
+NOTE: All code written below are done in python2, using python3 will not work
 You'll need to install the requirements
 ```
 pip install -r requirements.txt
