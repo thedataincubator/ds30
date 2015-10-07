@@ -5,6 +5,7 @@ seaborn
 git+https://github.com/thedataincubator/onlineldavb.git@master
 wordcloud
 ipython[all]
+requests_oauthlib
 simplejson
 requests
 nltk
