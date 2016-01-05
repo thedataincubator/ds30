@@ -1,37 +1,18 @@
 # Data Science in 30 Minutes
-A quick demo illustrating a few data science techniques, and all in 30 minutes!  We're going to illustrate what you can do in 30 minutes with a little bit of programming and science.  This is an open-source contribution to the community so please add as much as you want!
 
-## Requirements:
-NOTE: All code written below are done in python2, using python3 will not work.
+Check out `neural_nets.ipynb` for the full talk and example code for building a `word2vec` Neural Network in Python.
 
-You'll need to install the requirements
-```
-pip install -r requirements.txt
-```
+## System requirements
 
-## Add Twitter credentials:
-Next, you will also need to sign up for Twitter, obtain API credentials, and add those credentials to `twitter_secrets.json.nogit` (this file is intentionally ignored by git).  You can obtain your API credentials on the [Twitter API page](http://apps.twitter.com/). This file must be in JSON format so that the SimpleJSON package can read it, which will look something like: 
-```
-{
-"api_key": "XXXX",
-"api_secret": "XXXX",
-"access_token": "XXXX",
-"access_token_secret": "XXXX"
-}
-```
-where the XXXX values are yours.
+- Ipython notebook, numpy, scipy, pandas, matplotlib, seaborn
+- `gensim` (a C compiler will allow you to train more quickly, though isn't necessary).
 
-## Run:
-To run this demo, you will need to startup an ipython notebook instance:
-```
-ipython notebook
+You can easily install all of the above with Continuum Analytics' [conda](http://conda.pydata.org/docs/) - if you haven't heard of it yet, we'd highly recommend taking a look!
+
+The easiest way to install all these packages is the following, once you've gotten conda installed:
+
+``` 
+conda create --name ds30 --file environment.yaml
 ```
 
-Then go to `http://localhost:8888` and click on `DS30.ipynb` to view the example
-
-## More:
-This is meant to just give you a brief guided tour of a few topics in machine-learning.
-
-If you enjoyed this and want to learn more about doing data science in industry, consider [applying](https://www.thedataincubator.com/fellowship.html#apply?ref=ds30) to be a fellow at [The Data Incubator](https://www.thedataincubator.com/?ref=ds30)
-
-If you would like to hire data scientists, introduce data science corporate training, or partner to bring The Data Incubator to your country, reach out [here](https://www.thedataincubator.com/hiring.html?ref=ds30).
+Once you've gotten the python requirments installed, you can run `ipython notebook` from this directory and follow along.
