@@ -31,6 +31,9 @@ ipython notebook
 
 Then go to `http://localhost:8888` and click on `neural_nets.ipynb`
 
+## To follow along:
+You need visit our [youtube channel](https://www.youtube.com/watch?v=Xoiv_581ahU)
+
 ## More:
 This is meant to just give you a brief guided tour of just a few topics in data science.
 
