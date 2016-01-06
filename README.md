@@ -17,6 +17,12 @@ The easiest way to install all these packages is the following, once you've gott
 conda create --name ds30 --file environment.yaml
 ```
 
+## Pre-trained model to download (optional)
+We use the following dataset in a few examples. Warning: It's 1.5GB, so sit back and relax while the download happens!
+
+[The Google News Model](https://code.google.com/p/word2vec/#Pre-trained_word_and_phrase_vectors) from the "pre-trained" section on this page.
+
+
 ## Run:
 To run this demo, you will need to startup an ipython notebook instance:
 ```
